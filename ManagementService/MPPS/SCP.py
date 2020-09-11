@@ -1,3 +1,9 @@
+'''
+EVT_N_CREATE, EVT_N_SET 핸들러의 requirements를 확인하게 위해 아래 링크를 참고하세요
+https://pydicom.github.io/pynetdicom/stable/reference/generated/pynetdicom._handlers.doc_handle_n_get.html#pynetdicom._handlers.doc_handle_n_get
+'''
+
+
 from pydicom.dataset import Dataset
 
 from pynetdicom import AE, evt
